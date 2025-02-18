@@ -1,4 +1,4 @@
-import Project from "../models/project.js";
+import project from "../Models/project.js";
 import multer from "multer";
 import path from "path";
 

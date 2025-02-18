@@ -27,7 +27,7 @@ const ProjectDetails = () => {
     <div className="container mx-auto p-8">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img
-          src={`http://localhost:3000${project.image}`}
+          src={`https://sakansomalia-backend.onrender.com${project.image}`}
           alt={project.name}
           className="w-full h-full object-cover"
         />

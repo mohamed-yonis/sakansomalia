@@ -12,4 +12,10 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  build: {
+    outDir: 'dist', // Ensure this is correct
+  },
+  server: {
+    port: 3000, // Ensure this matches your local dev server
+  }
 });
